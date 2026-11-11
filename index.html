@@ -199,10 +199,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .tape{position:relative;overflow:hidden;padding-block:14px 10px}
 .tape .band{transform:rotate(-1.6deg);margin-inline:-20px;background:var(--accent);color:#0c0b08;border-block:4px solid transparent;
   border-image:repeating-linear-gradient(-45deg,#0c0b08 0 10px,var(--accent) 10px 20px) 4;transition:background .25s;box-shadow:0 8px 20px -10px #000}
-.tape .run{display:flex;width:max-content;animation:tape 26s linear infinite}
+.tape .run{display:flex;width:max-content;animation:tape 60s linear infinite}
 .tape span{font-family:var(--display);font-weight:900;font-size:clamp(18px,2.4vw,24px);letter-spacing:.04em;text-transform:uppercase;white-space:nowrap;padding:6px 0;display:flex;align-items:center}
 .tape span::after{content:"";width:22px;height:14px;margin-inline:18px;background:repeating-linear-gradient(-45deg,#0c0b08 0 4px,transparent 4px 8px)}
-.tape.live .run{animation-duration:9s}
+.tape.live .run{animation-duration:30s}
 @keyframes tape{to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion:reduce){.tape .run{animation:none}}
 @media (max-width:860px){
